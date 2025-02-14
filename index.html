@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Sharing Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="Logoclub.png" alt="Physics Club Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Partners</a>
+            <a href="#">Competition</a>
+            <a href="#">Donations</a>
+            <a href="#">COMPASS</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h1>Share Your Physics Animation</h1>
+
+        <!-- Video List -->
+        <section class="video-list">
+            <!-- Sample Video 1 -->
+            <div class="video-card">
+                <video controls>
+                    <source src="videos/sample1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Sample Animation 1</h3>
+            </div>
+
+            <!-- Sample Video 2 -->
+            <div class="video-card">
+                <video controls>
+                    <source src="videos/sample2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Sample Animation 2</h3>
+            </div>
+        </section>
+
+        <!-- Upload Section -->
+        <section class="upload-section">
+            <h2>Add Your Animation</h2>
+            <form>
+                <input type="text" placeholder="Animation Title" required>
+                <input type="file" accept="video/*" required>
+                <button type="submit" disabled>Upload (Coming Soon)</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
